@@ -1,0 +1,9 @@
+https://medium.com/javarevisited/25-topics-and-resources-to-crack-java-developer-interviews-in-2021-8fbfe317513
+
+https://www.javaguides.net/2023/07/spring-boot-microservices-interview.html
+
+https://medium.com/@arijit83work/bidirectional-relationship-using-onetomany-manytoone-annotation-in-spring-boot-3b91980ca222
+
+https://www.baeldung.com/jpa-many-to-many
+
+https://medium.com/@toimrank/spring-boot-aop-with-example-a2757e389d0b

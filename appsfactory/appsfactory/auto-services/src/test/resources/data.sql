@@ -1,0 +1,1 @@
+INSERT INTO auto_type_factor (id, car_name, factor, status) VALUES (1000000,'SUZUKI', 1.20,'ACTIVE');

@@ -1,0 +1,166 @@
+2021-11-21 12:06:36,016 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17h26m38s108ms921µs900ns).
+2021-11-21 12:09:37,460 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-11-21 12:14:37,470 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-11-21 12:19:37,486 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-11-21 12:24:37,494 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-11-21 12:29:37,506 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-11-21 12:34:37,516 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-11-21 12:39:37,525 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-11-21 12:44:37,542 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-11-21 12:49:37,557 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-11-21 12:54:37,567 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-11-21 12:59:37,572 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-11-21 13:04:35,548 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-11-21 13:09:35,559 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-11-21 13:14:35,565 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-11-21 13:16:15,100 INFO com.appsfactory.microservices.locationservices.service.impl.regional.RegionalLocationServiceImpl [http-nio-8000-exec-5] Getting the Regional Factor with Postcode 79189
+2021-11-21 16:53:35,458 INFO com.appsfactory.microservices.locationservices.LocationServicesApplication [restartedMain] Starting LocationServicesApplication using Java 16.0.1 on r143111 with PID 15604 (F:\job_search\job_search-2021\Germany\hamburg\appsfactory\premium-insurance-calculation-project\appsfactory\location-services\target\classes started by sameed in F:\job_search\job_search-2021\Germany\hamburg\appsfactory\premium-insurance-calculation-project\appsfactory\location-services)
+2021-11-21 16:53:35,461 INFO com.appsfactory.microservices.locationservices.LocationServicesApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-21 16:53:35,517 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-21 16:53:35,517 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-21 16:53:36,414 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-21 16:53:36,629 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 195 ms. Found 1 JPA repository interfaces.
+2021-11-21 16:53:36,956 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=b7619c9d-6e91-38c9-9bee-7e22f7d8dc1e
+2021-11-21 16:53:37,606 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-11-21 16:53:37,619 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-11-21 16:53:37,620 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-11-21 16:53:37,747 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-21 16:53:37,747 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2226 ms
+2021-11-21 16:53:37,810 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-11-21 16:53:38,096 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-11-21 16:53:38,104 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:locationdb'
+2021-11-21 16:53:38,260 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-21 16:53:38,363 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-21 16:53:38,663 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-21 16:53:38,847 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-21 16:53:39,709 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-21 16:53:39,724 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-21 16:53:39,756 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2021-11-21 16:53:40,229 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-21 16:53:40,764 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2021-11-21 16:53:40,942 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-11-21 16:53:41,000 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2021-11-21 16:53:41,095 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2021-11-21 16:53:41,102 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2021-11-21 16:53:41,147 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2021-11-21 16:53:41,147 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2021-11-21 16:53:41,147 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2021-11-21 16:53:41,147 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2021-11-21 16:53:41,147 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2021-11-21 16:53:41,147 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2021-11-21 16:53:41,147 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2021-11-21 16:53:41,345 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2021-11-21 16:53:41,367 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2021-11-21 16:53:41,375 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-11-21 16:53:41,389 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1637495621388 with initial instances count: 1
+2021-11-21 16:53:41,393 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application LOCATION with eureka with status UP
+2021-11-21 16:53:41,395 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1637495621395, current=UP, previous=STARTING]
+2021-11-21 16:53:41,397 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_LOCATION/r143111.stibo.swh.mhn.de:location:8000: registering service...
+2021-11-21 16:53:41,437 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path ''
+2021-11-21 16:53:41,438 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8000
+2021-11-21 16:53:41,443 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_LOCATION/r143111.stibo.swh.mhn.de:location:8000 - registration status: 204
+2021-11-21 16:53:41,563 INFO com.appsfactory.microservices.locationservices.LocationServicesApplication [restartedMain] Started LocationServicesApplication in 6.682 seconds (JVM running for 7.347)
+2021-11-21 16:53:41,567 INFO com.appsfactory.microservices.locationservices.DatabaseSeedingHandler [restartedMain] Loading the Initial Data into InMemory Database
+2021-11-21 16:53:50,899 INFO com.appsfactory.microservices.locationservices.DatabaseSeedingHandler [restartedMain] Finished the Loading of Initial Data into InMemory Database
+2021-11-21 16:58:41,165 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-11-21 17:03:41,172 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-11-21 17:08:41,174 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-11-21 17:15:32,174 INFO com.appsfactory.microservices.locationservices.LocationServicesApplication [restartedMain] Starting LocationServicesApplication using Java 16.0.1 on r143111 with PID 18408 (F:\job_search\job_search-2021\Germany\hamburg\appsfactory\premium-insurance-calculation-project\appsfactory\location-services\target\classes started by sameed in F:\job_search\job_search-2021\Germany\hamburg\appsfactory\premium-insurance-calculation-project\appsfactory\location-services)
+2021-11-21 17:15:32,178 INFO com.appsfactory.microservices.locationservices.LocationServicesApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-21 17:15:32,235 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-21 17:15:32,236 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-21 17:15:32,927 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-21 17:15:33,099 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 162 ms. Found 1 JPA repository interfaces.
+2021-11-21 17:15:33,351 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=b7619c9d-6e91-38c9-9bee-7e22f7d8dc1e
+2021-11-21 17:15:33,943 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-11-21 17:15:33,956 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-11-21 17:15:33,957 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-11-21 17:15:34,121 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-21 17:15:34,121 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1884 ms
+2021-11-21 17:15:34,169 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-11-21 17:15:34,331 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-11-21 17:15:34,339 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:locationdb'
+2021-11-21 17:15:34,482 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-21 17:15:34,537 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-21 17:15:34,662 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-21 17:15:34,796 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-21 17:15:35,388 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-21 17:15:35,399 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-21 17:15:35,423 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2021-11-21 17:15:35,799 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-21 17:15:36,288 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2021-11-21 17:15:36,468 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-11-21 17:15:36,501 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2021-11-21 17:15:36,600 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2021-11-21 17:15:36,606 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2021-11-21 17:15:36,652 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2021-11-21 17:15:36,653 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2021-11-21 17:15:36,655 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2021-11-21 17:15:36,656 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2021-11-21 17:15:36,657 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2021-11-21 17:15:36,657 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2021-11-21 17:15:36,658 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2021-11-21 17:15:36,822 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2021-11-21 17:15:36,833 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2021-11-21 17:15:36,841 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-11-21 17:15:36,855 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1637496936854 with initial instances count: 2
+2021-11-21 17:15:36,859 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application LOCATION with eureka with status UP
+2021-11-21 17:15:36,860 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1637496936860, current=UP, previous=STARTING]
+2021-11-21 17:15:36,864 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_LOCATION/r143111.stibo.swh.mhn.de:location:8000: registering service...
+2021-11-21 17:15:36,912 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_LOCATION/r143111.stibo.swh.mhn.de:location:8000 - registration status: 204
+2021-11-21 17:15:36,918 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path ''
+2021-11-21 17:15:36,919 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8000
+2021-11-21 17:15:37,047 INFO com.appsfactory.microservices.locationservices.LocationServicesApplication [restartedMain] Started LocationServicesApplication in 5.436 seconds (JVM running for 6.26)
+2021-11-21 17:15:37,051 INFO com.appsfactory.microservices.locationservices.DatabaseSeedingHandler [restartedMain] Loading the Initial Data into InMemory Database
+2021-11-21 17:15:43,484 INFO com.appsfactory.microservices.locationservices.DatabaseSeedingHandler [restartedMain] Finished the Loading of Initial Data into InMemory Database
+2021-11-21 17:20:36,668 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2021-11-21 17:29:29,166 INFO com.appsfactory.microservices.locationservices.LocationServicesApplication [restartedMain] Starting LocationServicesApplication using Java 16.0.1 on r143111 with PID 23764 (F:\job_search\job_search-2021\Germany\hamburg\appsfactory\premium-insurance-calculation-project\appsfactory\location-services\target\classes started by sameed in F:\job_search\job_search-2021\Germany\hamburg\appsfactory\premium-insurance-calculation-project\appsfactory\location-services)
+2021-11-21 17:29:29,169 INFO com.appsfactory.microservices.locationservices.LocationServicesApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-11-21 17:29:29,220 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-21 17:29:29,221 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-21 17:29:29,929 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-21 17:29:30,094 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 156 ms. Found 1 JPA repository interfaces.
+2021-11-21 17:29:30,341 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=b7619c9d-6e91-38c9-9bee-7e22f7d8dc1e
+2021-11-21 17:29:30,935 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-11-21 17:29:30,945 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-11-21 17:29:30,946 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-11-21 17:29:31,091 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-11-21 17:29:31,091 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1869 ms
+2021-11-21 17:29:31,132 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-11-21 17:29:31,299 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-11-21 17:29:31,306 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:locationdb'
+2021-11-21 17:29:31,440 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-21 17:29:31,541 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-21 17:29:31,745 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-21 17:29:31,898 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-11-21 17:29:32,720 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-21 17:29:32,730 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-21 17:29:32,752 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2021-11-21 17:29:33,150 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-21 17:29:33,675 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses RestTemplate.
+2021-11-21 17:29:33,858 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2021-11-21 17:29:33,889 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2021-11-21 17:29:33,981 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2021-11-21 17:29:33,987 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2021-11-21 17:29:34,039 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2021-11-21 17:29:34,039 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2021-11-21 17:29:34,040 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2021-11-21 17:29:34,040 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2021-11-21 17:29:34,041 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2021-11-21 17:29:34,041 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2021-11-21 17:29:34,041 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2021-11-21 17:29:34,208 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2021-11-21 17:29:34,216 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2021-11-21 17:29:34,228 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-11-21 17:29:34,244 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1637497774243 with initial instances count: 1
+2021-11-21 17:29:34,247 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application LOCATION with eureka with status UP
+2021-11-21 17:29:34,247 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1637497774247, current=UP, previous=STARTING]
+2021-11-21 17:29:34,249 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_LOCATION/r143111.stibo.swh.mhn.de:location:8000: registering service...
+2021-11-21 17:29:34,291 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path ''
+2021-11-21 17:29:34,292 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_LOCATION/r143111.stibo.swh.mhn.de:location:8000 - registration status: 204
+2021-11-21 17:29:34,292 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8000
+2021-11-21 17:29:34,414 INFO com.appsfactory.microservices.locationservices.LocationServicesApplication [restartedMain] Started LocationServicesApplication in 5.833 seconds (JVM running for 6.775)
+2021-11-21 17:29:34,417 INFO com.appsfactory.microservices.locationservices.DatabaseSeedingHandler [restartedMain] Loading the Initial Data into InMemory Database
+2021-11-21 17:29:42,262 INFO com.appsfactory.microservices.locationservices.DatabaseSeedingHandler [restartedMain] Finished the Loading of Initial Data into InMemory Database
+2021-11-21 17:31:06,733 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-21 17:31:06,783 INFO com.appsfactory.microservices.locationservices.service.impl.regional.RegionalLocationServiceImpl [http-nio-8000-exec-1] Getting the Regional Factor with Postcode 79189
