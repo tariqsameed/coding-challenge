@@ -1,0 +1,15 @@
+--- Exam Practice 
+17 Dec: Imperative Commands 3 Modules
+18 Dec: Imperative Commands 3 Modules 
+19 Dec: Killer Shell Test
+20 Dec: -
+21 Dec: Killer Shell Test (CKAD)
+22 Dec: Dump-killer Review
+23 Dec: Mock Exam and Lightning Lab
+--- Holiday
+Dec 25: Quick concept revision
+Dec 26: Dump Review
+Dec 27: Exam
+
+
+

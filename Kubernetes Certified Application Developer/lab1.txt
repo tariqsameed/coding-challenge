@@ -1,0 +1,1 @@
+https://foxutech.medium.com/how-to-create-and-change-the-kubernetes-yaml-using-dry-run-and-edit-5975d77e8df2

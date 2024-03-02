@@ -1,0 +1,241 @@
+kubectl run hello-minikube
+kubectl cluster-info
+kubectl get nodes
+kubectl run niginx --image nignx
+
+k create deploy my-deploy --image=nginx --replicas=2 --dry-run=client -o yaml -- sleep 3600
+kubectl run redis --image=redis123 --dry-run=client -o yaml > redis-definition.yaml
+kubectl create -f redis-definition.yaml
+kubectl apply -f redis-definition.yaml 
+
+#################################################
+A Note on Editing Existing Pods
+
+In any of the practical quizzes, if you are asked to edit an existing POD, please note the following:
+
+    If you are given a pod definition file, edit that file and use it to create a new pod.
+
+    If you are not given a pod definition file, you may extract the definition to a file using the below command:
+
+    kubectl get pod <pod-name> -o yaml > pod-definition.yaml
+
+    Then edit the file to make the necessary changes, delete, and re-create the pod.
+
+    To modify the properties of the pod, you can utilize the kubectl edit pod <pod-name> command. Please note that only the properties listed below are editable.
+
+        spec.containers[*].image
+
+        spec.initContainers[*].image
+
+        spec.activeDeadlineSeconds
+
+        spec.tolerations
+
+        spec.terminationGracePeriodSeconds 
+#############################################################
+
+https://www.linkedin.com/pulse/how-pass-ckad-exam-tips-tricks-somnath-pawar/
+https://mohewedy.medium.com/how-to-prepare-for-the-kubernetes-ckad-exam-3749742f4b4
+https://mattburman.com/how-i-passed-the-ckad-exam/
+
+kubectl replace -f replicaset-definiton.yml
+kubectl get replicaset
+kubectl scale --replicas=6 -f replicaset-definition.yml
+kubectl scale --replicas=6 replicaset myapp-replicaset
+kubectl get all
+
+################################
+
+    -o jsonOutput a JSON formatted API object.
+
+    -o namePrint only the resource name and nothing else.
+
+    -o wideOutput in the plain-text format with any additional information.
+
+    -o yamlOutput a YAML formatted API object.
+
+###############################
+kubectl get pods --namespace=kube-system
+kubectl create namespace dev
+kubectl config set-context $(kubectl config current-context) --namespace=dev
+kubectl get pods --all-namespaces
+Lecture 33 - all commands
+
+kubectl expose pod redis --port=6379 --name redis-service
+kubectl create deployment webapp --image=kodekloud/webapp-color --replicas=3
+kubectl run httpd --image=httpd:alpine --port=80 --expose
+
+Lecture 38
+Lecture 40
+kubectll run --help
+
+
+kubectl create configmap
+kubectl create configmap \
+	app-config --from-literal=APP_COLOR=blue
+
+kubectl create configmap \
+	app-config --from-file=app_config.properties
+
+kubectl create -f 
+kubectl get configmaps
+
+There are multiple ways to inject the configuration into pods. Single value, multiple values
+
+kubectl create secret generic app-secret --from-literal=DB_HOST=mysql
+kubectl create -f 
+
+kubectl create secret generic \
+	app-config --from-file=app_secret.properties
+
+echo -n 'mysql' | base64
+echo -n 'bx1cxy' | base64 --decode
+
+kubectl describe secrets
+kubectl get secret app-secret -o yaml
+
+kubectl create secret generic db-secret --from-literal=DB_Host=sql01 --from-literal=DB_User=root --from-literal=DB_Password=password123
+
+kubectl exec ubuntu-sleeper -- whoami
+
+kubectl create serviceaccount dasahboard-sa
+kubectl get serviceaccount
+kubectl describe serviceaccount dashboard-sa
+
+kubectl taint nodes node-name key=value:taint-effect
+kubectl taint nodes node1 app=blue:NoSchedule
+kubectl describe mode kubemaster | grep taint
+kubectl replace -f elephant.yaml --force
+
+kubectl taint nodes node01 spray=mortein:NoSchedule
+kubectl taint nodes controlplane node-role.kubernetes.io/control-plane:NoSchedule- // untaint the node
+
+kubectl -n elastic-stack logs kibana
+kubectl -n elastic-stack exec -it app -- cat /log/app.log
+
+kubectl replace --force -f /tmp/123.yaml
+
+kubectl top node 
+kubectl top pod
+kubectl replace -f simple-webapp-2.yaml --force
+
+kubectl logs webapp-1
+kubectl logs webapp-2 -c simple-webapp
+
+kubectl top node --sort-by='cpu' --no-headers | head -1
+kubectl top node --sort-by='memory' --no-headers | head -1
+kubectl top pod --sort-by='memory' --no-headers | head -1
+kubectl top pod --sort-by='cpu' --no-headers | tail -1
+
+kubectl rollout history deployment/webapp-deployment
+kubectl rollout status deployment/webapp-deployment
+kubectl delete deployment my-app-deployment
+kubectl create -f sw.yaml --record
+kubectl rollout undo deployment/webapp-deployment
+
+kubectl get pods --selector env=dev
+kubectl get pods --selector env=dev --no-headers | wc -l
+kubectl get pods --selector bu=finance
+kubectl get all --selector env=prod,bu=finance,tier=frontend
+
+kubectl create job throw-dice-job --image=kodekloud/throw-dice --dry-run=client -o yaml  > throw-dice-job.yaml
+
+kubectl describe job throw-dice-job
+
+lecture 106
+
+kubectl config view
+kubectl config --kubeconfig=/root/my-kube-config use-context research
+kubectl config --kubeconfig=/root/my-kube-config current-context
+
+kubectl describe pod kube-apiserver-controlplane -n kube-system 
+ps aux | grep authorization
+kubectl get roles
+kubectl get roles -A
+kubectl get roles --all-namespaces
+kubectl get role -A --no-headers | wc -l
+kubectl describe role kube-proxy -n kube-system
+kubectl get rolebinding -n kube-system
+kubectl describe rolebinding kube-proxy -n kube-system
+kubectl config view
+kubectl get pods --as dev-user
+
+
+To create a Role:- 
+kubectl create role developer --namespace=default --verb=list,create,delete --resource=pods
+
+kubectl describe role developer
+
+To create a RoleBinding:- 
+kubectl create rolebinding dev-user-binding --namespace=default --role=developer --user=dev-user
+
+
+
+kubectl get clusterroles --no-headers | wc -l
+kubectl get clusterrolebindings --no-headers | wc -l
+kubectl get clusterroles
+kubectl get clusterrolebinding
+kubectl describe clusterrolebinding cluster-admin
+
+kubectl get nodes --as michelle
+
+kubectl create clusterrole michelle-role --verb=get,list,watch --resource=nodes
+kubectl create clusterrolebinding michelle-role-binding --clusterrole=michelle-role --user=michelle
+
+kubectl api-resources
+kubectl create clusterrole storage-admin --resource=persistentvolumes,storageclasses --verb=list,create,get,watch
+kubectl get clusterrole storeage-admin -o yaml
+
+
+kubectl create clusterrolebinding michelle-storage-admin --clusterrole=storage-admin --user=michelle
+kubectl --as michelle get storageclass
+
+cat /etc/*release*
+helm --help
+helm version
+helm search hub chart-name
+helm repo add bitnami https://charts.bitnami.com/bitnami
+helm search repo joomla
+helm repo list
+helm install bravo bitnami/drupal
+helm list
+helm uninstall bravo
+helm pull --untar  bitnami/apache
+
+
+kubectl scale deployment frontend --replicas=0
+kubectl scale deployment frontend-v2 --replicas=5
+
+kubectl get pods -n kube-system
+kubectl exec -it kube-apiserver-controlplane -n kube-system -- kube-apiserver -h | grep 'enable-admission-plugins'
+
+
+kubectl -n webhook-demo create secret tls webhook-server-tls \
+    --cert "/root/keys/webhook-server-tls.crt" \
+    --key "/root/keys/webhook-server-tls.key"
+
+
+kubectl api-resources
+
+ kubectl proxy 8001&
+curl localhost:8001/apis/authorization.k8s.io
+
+ kubectl-convert -f ingress-old.yaml --output-version networking.k8s.io/v1
+kubectl create -f ingress-new.yaml
+ kubectl get ing ingress-space -o yaml | grep apiVersion
+
+
+kubectl exec webapp -- cat /log/app.log
+
+kubectl get pv
+
+
+
+
+
+
+
+
+
+
+

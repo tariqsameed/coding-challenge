@@ -1,0 +1,1 @@
+https://trainingportal.linuxfoundation.org/courses/certified-kubernetes-application-developer-ckad
