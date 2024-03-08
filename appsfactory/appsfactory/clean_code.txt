@@ -1,0 +1,47 @@
+Documentation / Setup
++ good overall documentation
+- API documentation looks manually generated
+- solution contained binaries, made it unnecessary big
+
+Microservice Design
++ good microservice cut
+- Services need to know details about their implementation (e.g. using status filed for deletion mark)
+
+Project Structure (per Microservice)
++ well organized package structure on 1st level
+- strange package structure (e.g. service package level)
+
+Clean Code
+- Odd naming (on service, class, method and field level)
+- package naming does not follow Java coding convention
+- unused classes
+- unnecessary code (e.g. temporary variables, statements)
+- unused imports
+- mix up of entity and model
+
+OO Principles
+- unnecessary access to internals (e.g. service instances)
+- usage of field injection
+- Using String constants instead of enum for status (or even just boolean)
+
+Tooling (JVM, Library & Frameworks)
++ Usage of Spring Cloud infrastructure
++ Use of BigDecimal for currency
++ Using Feign clients
++ Having a log concept
++ Using lombok
++ Usage of Spring Data queries
++ Usage of Validation API
+- local construction of Optional followed by ifPresent check
+- Providing unnecessary constructor implementation when using lombok's @Data annotation
+- CSV parsing without library
+
+Errors
+- Using @NotNull on primitives
+
+Tests
++ having both integration and unit tests
+
+Database
++ overall reasonable entities
+- DB should be in charge of managing IDs not the application
